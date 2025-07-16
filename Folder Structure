@@ -1,0 +1,14 @@
+project-root/
+├── frontend/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── .gitignore
+│   └── src/
+│       └── index.js       ← Express server with form
+├── backend/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── app.py            ← Flask server
+│   └── .gitignore
+├── docker-compose.yaml
+└── .gitignore            ← root-level ignores
