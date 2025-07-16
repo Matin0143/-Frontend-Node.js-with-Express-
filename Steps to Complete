@@ -1,0 +1,5 @@
+docker build -t username/frontend:latest ./frontend
+docker push username/frontend:latest
+
+docker build -t username/backend:latest ./backend
+docker push username/backend:latest
